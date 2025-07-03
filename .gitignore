@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
@@ -36,3 +37,17 @@ build/
 
 ### Mac OS ###
 .DS_Store
+=======
+# Java/ANTLR build artifacts
+antlr-exercises/target/
+antlr-exercises/grammars/.antlr/
+*.class
+*.log
+
+# VSCode settings (optional, keep if you want to share settings)
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db 
+>>>>>>> 41d9812 (Add initial project structure with .gitignore, README, grammar files, and Java source)
